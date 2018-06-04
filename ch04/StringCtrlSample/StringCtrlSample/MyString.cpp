@@ -6,16 +6,10 @@ CMyString::CMyString():
 	m_pszData(NULL),
 	m_nLength(0)
 {
-	pm_nLength = new int;
-	pm_pszData = new char*;
-	*pm_nLength = m_nLength;
-	**pm_pszData = *m_pszData;
 }
 CMyString::CMyString(const CMyString &rhs)
 {
-	CMyString();
-	*pm_nLength = *rhs.pm_nLength;
-	
+thi	
 }
 
 
